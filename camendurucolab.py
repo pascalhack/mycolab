@@ -72,7 +72,7 @@ with open(colabpath, 'r', encoding='utf-8') as f:
                 elif stripped_line=='rm *.deb':
                     pass
                 else:
-                    commandtoappend = stripped_line.replace('/content/gdrive/MyDrive/dp/stable-diffusion-webui', '/content/gdrive/MyDrive/dp/volatile-concentration-localux')
+                    commandtoappend = stripped_line.replace('/content/stable-diffusion-webui', '/content/gdrive/MyDrive/dp/volatile-concentration-localux')
                     if currentpart == 'part1':
                         linetoexecute_part1.append(commandtoappend)
                     elif currentpart == 'part2':

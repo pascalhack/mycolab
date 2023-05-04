@@ -25,7 +25,7 @@ def subprocessing(execline):
 if arialines:
   for line in arialines:
     if not '4x-UltraSharp.pth' in line:
-      ariaexecline = line[2:].replace('\\n",', '').replace('/content/gdrive/MyDrive/dp/stable-diffusion-webui', '/content/gdrive/MyDrive/dp/volatile-concentration-localux')
+      ariaexecline = line[2:].replace('\\n",', '').replace('/content/stable-diffusion-webui', '/content/gdrive/MyDrive/dp/volatile-concentration-localux')
       if 'ControlNet' in ariaexecline:
          if downloadcnet:
             subprocessing(ariaexecline)
