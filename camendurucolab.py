@@ -41,7 +41,7 @@ print('[0m')
 with open(colabpath, 'r', encoding='utf-8') as f:
     for line in f:
         stripped_line = line.strip()
-        if stripped_line.startswith(r'"%cd /content'):
+        if stripped_line.startswith(r'"%cd /content/gdrive/MyDrive/dp'):
             startcapture = True
         # if stripped_line.startswith(r'"%env'):
         #     startcapture = True
